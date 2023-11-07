@@ -49,6 +49,7 @@ class Core
         'TOKEN_LIFETIME' => null,
         'TOKEN_SECRET' => '@_leaf$0Secret!',
         'SESSION_REDIRECT_ON_LOGIN' => true,
+        'SESSION_REDIRECT_ON_REGISTER' => true,
         'SESSION_LIFETIME' => self::TIMESTAMP_OF_ONE_DAY,
         'SESSION_COOKIE_PARAMS' => ['secure' => true, 'httponly' => true, 'samesite' => 'lax'],
     ];
